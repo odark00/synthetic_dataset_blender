@@ -1,0 +1,26 @@
+# --- Render output (regenerate with ./run.sh) ---------------------------
+# DS_OUT_TAG creates suffixed variants, e.g. gray_images_smoke/
+gray_images*/
+labels*/
+_label_check/
+render.log
+
+# --- Re-downloadable assets ---------------------------------------------
+# CC0 PBR sets from ambientCG: python3 fetch_textures.py
+textures_pbr/
+# BlenderKit downloads; not referenced by any script (baked into scene.blend)
+assets/
+
+# --- Large source data kept outside git ---------------------------------
+# 169 photo textures (~293 MB). Copy in separately before rendering;
+# script.py falls back to textures_pbr/ when this is missing.
+textures/
+
+# --- Blender ------------------------------------------------------------
+*.blend1
+*.blend2
+
+# --- Python -------------------------------------------------------------
+__pycache__/
+*.pyc
+.venv/
