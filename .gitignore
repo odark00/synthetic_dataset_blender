@@ -21,4 +21,5 @@ __pycache__/
 .venv/
 
 # --- package_dims generators -----------------------------------------
-package_dims/datasets/
+package_dims/datasets/*
+!package_dims/datasets/SYNTH_V5_DIVERSE/

@@ -1,0 +1,36 @@
+{
+ "camera_intrinsics": {
+  "fx": 1628.7838671410764,
+  "fy": 1629.8256591229576,
+  "cx": 635.9561986854492,
+  "cy": 505.3653640066605,
+  "width": 1280,
+  "height": 1280,
+  "source_camera_type": "JAI GO-5000M-PGE KOWA LM16HC (synthetic v5)",
+  "note": "undistorted; frame placed top-left on a black square canvas"
+ },
+ "num_objects": 0,
+ "objects": [],
+ "camera_pose": {
+  "height_m": 7.785121731112862,
+  "tilt_deg": 0.0,
+  "roll_deg": 0.0
+ },
+ "valid_region": [
+  0,
+  0,
+  1280,
+  1024
+ ],
+ "seed": 153,
+ "scene": {
+  "mode": "empty",
+  "light": "hall",
+  "lens": "LM16HC",
+  "mount_h": 7.785121731112862,
+  "cut_units": 0,
+  "floor": "epoxy",
+  "paint_share": 0.057125282287597653
+ },
+ "generator": "synth/generate_v5.py"
+}

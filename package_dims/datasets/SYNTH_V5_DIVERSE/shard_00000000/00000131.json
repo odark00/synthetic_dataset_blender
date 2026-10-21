@@ -1,0 +1,125 @@
+{
+ "camera_intrinsics": {
+  "fx": 1634.013002538542,
+  "fy": 1634.0258731764795,
+  "cx": 631.3169296040033,
+  "cy": 513.0388852650501,
+  "width": 1280,
+  "height": 1280,
+  "source_camera_type": "JAI GO-5000M-PGE KOWA LM16HC (synthetic v5)",
+  "note": "undistorted; frame placed top-left on a black square canvas"
+ },
+ "num_objects": 1,
+ "objects": [
+  {
+   "name": "unit_00",
+   "type": "parcel",
+   "object_dimensions_m": {
+    "width_m": 0.8755566087990613,
+    "length_m": 0.40361280193945503,
+    "height_m": 0.4324759117980785
+   },
+   "boxes_3d_cam": [
+    [
+     1.201443,
+     0.886062,
+     7.014024
+    ],
+    [
+     1.189353,
+     0.010589,
+     7.014024
+    ],
+    [
+     1.592927,
+     0.005015,
+     7.014024
+    ],
+    [
+     1.605017,
+     0.880488,
+     7.014024
+    ],
+    [
+     1.201443,
+     0.886062,
+     6.581548
+    ],
+    [
+     1.189353,
+     0.010589,
+     6.581548
+    ],
+    [
+     1.592927,
+     0.005015,
+     6.581548
+    ],
+    [
+     1.605017,
+     0.880488,
+     6.581548
+    ]
+   ],
+   "synth": {
+    "kind": "parcel",
+    "top_face_3d": [
+     [
+      1.201443,
+      0.886062,
+      6.581548
+     ],
+     [
+      1.189353,
+      0.010589,
+      6.581548
+     ],
+     [
+      1.592927,
+      0.005015,
+      6.581548
+     ],
+     [
+      1.605017,
+      0.880488,
+      6.581548
+     ]
+    ],
+    "pallet_top_3d": null,
+    "dmc_3d": null,
+    "label_m": 0.11024287409575406,
+    "load_lw_m": [
+     0.8755566087990614,
+     0.4036128019394548
+    ],
+    "load_h_m": 0.4324759117980785,
+    "pallet_lw_m": null,
+    "truck": false,
+    "film": null,
+    "soft": false
+   }
+  }
+ ],
+ "camera_pose": {
+  "height_m": 7.0140241622313395,
+  "tilt_deg": 0.0,
+  "roll_deg": 0.0
+ },
+ "valid_region": [
+  0,
+  0,
+  1280,
+  1024
+ ],
+ "seed": 131,
+ "scene": {
+  "mode": "dock",
+  "light": "hall",
+  "lens": "LM16HC",
+  "mount_h": 7.0140241622313395,
+  "cut_units": 3,
+  "floor": "epoxy",
+  "paint_share": 0.03391284942626953
+ },
+ "generator": "synth/generate_v5.py"
+}

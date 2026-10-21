@@ -1,0 +1,125 @@
+{
+ "camera_intrinsics": {
+  "fx": 1277.3790101935294,
+  "fy": 1278.6511528261965,
+  "cx": 636.0759408732309,
+  "cy": 520.325967851158,
+  "width": 1280,
+  "height": 1280,
+  "source_camera_type": "JAI GO-5000M-PGE KOWA LM12HC (synthetic v5)",
+  "note": "undistorted; frame placed top-left on a black square canvas"
+ },
+ "num_objects": 1,
+ "objects": [
+  {
+   "name": "unit_00",
+   "type": "parcel",
+   "object_dimensions_m": {
+    "width_m": 1.1971806089612624,
+    "length_m": 1.0511247430841335,
+    "height_m": 1.298439847819421
+   },
+   "boxes_3d_cam": [
+    [
+     0.217196,
+     -0.901169,
+     4.343508
+    ],
+    [
+     0.790062,
+     0.150051,
+     4.343508
+    ],
+    [
+     -0.13291,
+     0.653028,
+     4.343508
+    ],
+    [
+     -0.705776,
+     -0.398192,
+     4.343508
+    ],
+    [
+     0.217196,
+     -0.901169,
+     3.045069
+    ],
+    [
+     0.790062,
+     0.150051,
+     3.045069
+    ],
+    [
+     -0.13291,
+     0.653028,
+     3.045069
+    ],
+    [
+     -0.705776,
+     -0.398192,
+     3.045069
+    ]
+   ],
+   "synth": {
+    "kind": "big_bag",
+    "top_face_3d": [
+     [
+      0.217196,
+      -0.901169,
+      3.045069
+     ],
+     [
+      0.790062,
+      0.150051,
+      3.045069
+     ],
+     [
+      -0.13291,
+      0.653028,
+      3.045069
+     ],
+     [
+      -0.705776,
+      -0.398192,
+      3.045069
+     ]
+    ],
+    "pallet_top_3d": null,
+    "dmc_3d": null,
+    "label_m": 0.10282495659594376,
+    "load_lw_m": [
+     1.1971806089612627,
+     1.0511247430841333
+    ],
+    "load_h_m": 1.298439847819421,
+    "pallet_lw_m": null,
+    "truck": false,
+    "film": null,
+    "soft": false
+   }
+  }
+ ],
+ "camera_pose": {
+  "height_m": 4.343508387568437,
+  "tilt_deg": 0.0,
+  "roll_deg": 0.0
+ },
+ "valid_region": [
+  0,
+  0,
+  1280,
+  1024
+ ],
+ "seed": 16,
+ "scene": {
+  "mode": "isolated",
+  "light": "hall",
+  "lens": "LM12HC",
+  "mount_h": 4.343508387568437,
+  "cut_units": 0,
+  "floor": "worn_concrete",
+  "paint_share": 0.013261795043945312
+ },
+ "generator": "synth/generate_v5.py"
+}

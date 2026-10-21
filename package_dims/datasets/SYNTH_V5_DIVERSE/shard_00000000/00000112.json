@@ -1,0 +1,125 @@
+{
+ "camera_intrinsics": {
+  "fx": 830.3017308034681,
+  "fy": 829.8885265116274,
+  "cx": 637.12816189848,
+  "cy": 504.2084851547069,
+  "width": 1280,
+  "height": 1280,
+  "source_camera_type": "JAI GO-5000M-PGE KOWA LM8HC (synthetic v5)",
+  "note": "undistorted; frame placed top-left on a black square canvas"
+ },
+ "num_objects": 1,
+ "objects": [
+  {
+   "name": "unit_00",
+   "type": "palletised_load",
+   "object_dimensions_m": {
+    "width_m": 0.7955865861982802,
+    "length_m": 0.7949879383846304,
+    "height_m": 0.7649018009460715
+   },
+   "boxes_3d_cam": [
+    [
+     1.079866,
+     -1.101798,
+     3.03805
+    ],
+    [
+     1.472762,
+     -0.409996,
+     3.03805
+    ],
+    [
+     0.78148,
+     -0.017395,
+     3.03805
+    ],
+    [
+     0.388584,
+     -0.709198,
+     3.03805
+    ],
+    [
+     1.079866,
+     -1.101798,
+     2.273148
+    ],
+    [
+     1.472762,
+     -0.409996,
+     2.273148
+    ],
+    [
+     0.78148,
+     -0.017395,
+     2.273148
+    ],
+    [
+     0.388584,
+     -0.709198,
+     2.273148
+    ]
+   ],
+   "synth": {
+    "kind": "slat_crate",
+    "top_face_3d": [
+     [
+      1.079866,
+      -1.101798,
+      2.273148
+     ],
+     [
+      1.472762,
+      -0.409996,
+      2.273148
+     ],
+     [
+      0.78148,
+      -0.017395,
+      2.273148
+     ],
+     [
+      0.388584,
+      -0.709198,
+      2.273148
+     ]
+    ],
+    "pallet_top_3d": null,
+    "dmc_3d": null,
+    "label_m": 0.10389627018675299,
+    "load_lw_m": [
+     0.7955865861982802,
+     0.7949879383846304
+    ],
+    "load_h_m": 0.6649018009460715,
+    "pallet_lw_m": null,
+    "truck": false,
+    "film": null,
+    "soft": false
+   }
+  }
+ ],
+ "camera_pose": {
+  "height_m": 3.038050275572225,
+  "tilt_deg": 0.0,
+  "roll_deg": 0.0
+ },
+ "valid_region": [
+  0,
+  0,
+  1280,
+  1024
+ ],
+ "seed": 112,
+ "scene": {
+  "mode": "isolated",
+  "light": "day",
+  "lens": "LM8HC",
+  "mount_h": 3.038050275572225,
+  "cut_units": 0,
+  "floor": "concrete",
+  "paint_share": 0.008415985107421874
+ },
+ "generator": "synth/generate_v5.py"
+}
