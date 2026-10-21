@@ -9,7 +9,7 @@ render.log
 # CC0 PBR sets from ambientCG: python3 fetch_textures.py
 textures_pbr/
 # BlenderKit downloads; not referenced by any script (baked into scene.blend)
-assets/
+/assets/
 
 # --- Blender ------------------------------------------------------------
 *.blend1
@@ -19,3 +19,6 @@ assets/
 __pycache__/
 *.pyc
 .venv/
+
+# --- package_dims generators -----------------------------------------
+package_dims/datasets/
